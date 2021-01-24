@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cart Screen</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- navbar -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="navbar-brand" >
+              <span><h3>SHOPIFY CART
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#product">Products</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="login.html">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="no"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </header>
+
+
+    <div class="small-container cart-page">
+      <table id="displayCartItems">
+        <tr>
+          <th>Product</th>
+          <th class="center">Quantity</th>
+          <th class="right">SubTotal</th>
+        </tr>
+      </table>
+      <div class="total-price">
+         <table id="displayTotal">
+         </table>
+      </div>
+    </div>
+
+      <div class="footer" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-2">
+              <h3>Welcome Here</h3>
+              <p>Shop here on reasonable prices and good quality.</p>
+              <div class="app-logo">
+                <img src="assets/images/play-store.png" alt="">
+                <img src="assets/images/app-store.png" alt="">
+              </div>
+            </div>
+            <div class="footer-col-3">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contact</li>
+                <li>Wishlist</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>LinkedIn</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright &copy; 2020 - Developed By Rahul</p>
+        </div>
+      </div>
+
+  <script src="js/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
